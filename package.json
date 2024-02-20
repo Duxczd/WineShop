@@ -6,11 +6,6 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
-  "browserslist": [
-    "> 0.1%",
-    "IE 10",
-    "Firefox > 20"
-  ],
   "dependencies": {
     "core-js": "^3.8.3",
     "element-ui": "^2.15.14",
