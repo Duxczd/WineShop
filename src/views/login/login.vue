@@ -61,9 +61,7 @@ export default {
             message: '登录成功',
             type: 'success'
           })
-          setTimeout(() => {
-            this.loading = false
-          }, 2000)
+          this.$router.push({ path: '/mainBasis' })
         } else {
           return false
         }

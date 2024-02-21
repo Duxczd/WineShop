@@ -14,12 +14,17 @@ const routes = [
     path: '/',
     name: 'login',
     component: login
+  },
+  {
+    path: '/path404',
+    name: 'path404',
+    component: () => import(/* 404页面 */'@/views/mainBasis/path404')
+  },
+  {
+    path: '/mainBasis',
+    name: 'mainBasis',
+    component: () => import(/* 404页面 */'@/views/mainBasis/mainBasis')
   }
-  // {
-  //   path: '/path404',
-  //   name: 'path404',
-  //   component: () => import(/* 404页面 */'@/views/mainBasis/path404')
-  // }
 ]
 
 // const router = new VueRouter({
