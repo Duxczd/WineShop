@@ -21,7 +21,6 @@ export default {
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
 
   .login-bg {
@@ -33,13 +32,16 @@ export default {
   }
 
   .login-box {
+    width: 300px;
+    height: 500px;
     position: relative;
     z-index: 2;
-    margin-right: 80px;
+    margin: 120px 100px 0 0;
     box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1);
     padding: 40px;
     background-color: #fff;
     border-radius: 4px;
+    opacity: .9;
   }
 }
 </style>
