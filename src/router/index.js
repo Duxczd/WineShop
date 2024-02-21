@@ -14,12 +14,12 @@ const routes = [
     path: '/',
     name: 'login',
     component: login
-  },
-  {
-    path: '/path404',
-    name: 'path404',
-    component: () => import(/* 404页面 */'@/views/main/path404')
   }
+  // {
+  //   path: '/path404',
+  //   name: 'path404',
+  //   component: () => import(/* 404页面 */'@/views/mainBasis/path404')
+  // }
 ]
 
 // const router = new VueRouter({
